@@ -57,7 +57,7 @@ echo Ai::translateTextTo($text, 'french');
 Make a text more commercial
 
 ```php
-    echo Ai::marketingText($text);
+echo Ai::marketingText($text);
 ```
 
 ## Changelog
