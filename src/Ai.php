@@ -6,7 +6,7 @@ class Ai
 {
     private static function getClient()
     {
-        $client = \OpenAI::client('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');
+        $client = \OpenAI::client(env('OPENAI_API_KEY'));
 
         return $client;
     }
