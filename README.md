@@ -26,14 +26,38 @@ This is the contents of the published config file:
 ```php
 return [
     'source_language' => 'english',
+    'api_key' => env('OPENAI_API_KEY'),
 ];
 ```
 
 ## Usage
 
+### Text reviewing 
+
+Review a text, giving the text to the AI and it will return a review of the text.
+
 ```php
-$ai = new Dietercoopman\Ai();
-echo $ai->echoPhrase('Hello, Dietercoopman!');
+$text = "Wth ths package you can use the OpenAI API in your Laravel application.";
+
+echo Ai::reviewText($text);
+//returns 'With this package you can use the OpenAI API in your Laravel application.'
+```
+
+### Text translation 
+
+Translate a text to another language
+
+```php
+echo Ai::translateTextTo($text, 'french');
+//returns 'Avec ce package, vous pouvez utiliser l'API OpenAI dans votre application Laravel.'
+```
+
+### Make text more marketing
+
+Make a text more commercial
+
+```php
+    echo Ai::marketingText($text);
 ```
 
 ## Changelog
