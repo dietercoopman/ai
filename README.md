@@ -49,7 +49,7 @@ Translate a text to another language
 
 ```php
 echo Ai::translateTextTo($text, 'french');
-//returns 'Avec ce package, vous pouvez utiliser l'API OpenAI dans votre application Laravel.'
+//returns 'avec ce package vous pouvez utiliser l'API OpenAI dans votre application Laravel.'
 ```
 
 ### Make text more marketing
