@@ -37,7 +37,7 @@ return [
 Review a text, giving the text to the AI and it will return a review of the text.
 
 ```php
-$text = "Wth ths package you can use the OpenAI API in your Laravel application.";
+$text = "Wth ths package you can use the OpenAI API in yr Larvel aplicaton.";
 
 echo Ai::reviewText($text);
 //returns 'With this package you can use the OpenAI API in your Laravel application.'
