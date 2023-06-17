@@ -1,4 +1,4 @@
-[AI package](https://banners.beyondco.de/AI.png?theme=light&packageManager=composer+require&packageName=dietercoopman%2Fai&pattern=architect&style=style_1&description=A+wrapper+for+openai-php%2Fclient&md=1&showWatermark=0&fontSize=100px&images=code)
+![AI package](https://banners.beyondco.de/AI.png?theme=light&packageManager=composer+require&packageName=dietercoopman%2Fai&pattern=architect&style=style_1&description=A+wrapper+for+openai-php%2Fclient&md=1&showWatermark=0&fontSize=100px&images=code)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/dietercoopman/ai.svg?style=flat-square)](https://packagist.org/packages/dietercoopman/ai)
 [![Total Downloads](https://img.shields.io/packagist/dt/dietercoopman/ai.svg?style=flat-square)](https://packagist.org/packages/dietercoopman/ai)
