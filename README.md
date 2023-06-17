@@ -6,6 +6,7 @@
 # A wrapper for openai-php/client
 
 This packages provides a wrapper around the popular openai-php/client package.  
+For this package you need an OpenAI api key
 
 ## Installation
 
